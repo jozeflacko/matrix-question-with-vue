@@ -1,0 +1,23 @@
+{
+  "name": "coding-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "vue-cli-service serve --port 3000",
+    "test": "cypress open"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "tslib": "^1.14.1",
+    "vue": "^3.0.0",
+    "vue-class-component": "^8.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "typescript": "~4.1.5",
+    "cypress": "^8.1.0"
+  }
+}
